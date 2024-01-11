@@ -23,7 +23,7 @@ Before running the code, make sure you have the following software installed:
    Repeat this step in case you are receiving "demo.kafka.event.PaymentSent not found ..."
 
 3. Run Spring boot application
-4. In Postman send POST request to http://localhost:9001/v1/payments/send.
+4. In Postman send POST request to http://localhost:9002/v1/payments/send.
 
    Body sample:
 ```

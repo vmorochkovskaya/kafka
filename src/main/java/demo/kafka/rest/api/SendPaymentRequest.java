@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SendPaymentRequest {
-
     private String paymentId;
     private Double amount;
     private String currency;

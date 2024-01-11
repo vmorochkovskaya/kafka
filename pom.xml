@@ -21,9 +21,9 @@
         <avro.version>1.11.3</avro.version>
         <confluent.version>7.5.1</confluent.version>
         <schemaRegistryBasicAuthUserInfo>
-            5FJI3WEEOPWJKBLC:NTbRdm+EFi6WvuvBPA16PJ4pE+yPeR2F2MuyimojgOem+pJABgsymbknFjjwUhR0
+            IG42QUBJB2P6IWHL:6cO5v5WovJtOrMb7DjRKFUkIGq4RgrPaiGxF7zr3sk7v0FuQQ6PenXDfS9NvIQ/k
         </schemaRegistryBasicAuthUserInfo>
-        <schemaRegistryUrl>https://psrc-x77pq.us-central1.gcp.confluent.cloud</schemaRegistryUrl>
+        <schemaRegistryUrl>https://psrc-yg906.us-east-2.aws.confluent.cloud</schemaRegistryUrl>
     </properties>
 
     <repositories>

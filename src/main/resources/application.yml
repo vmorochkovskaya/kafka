@@ -3,15 +3,15 @@ spring:
         name: schema-registry-demo-service
 
 kafka:
-    bootstrap-servers: pkc-lzvrd.us-west4.gcp.confluent.cloud:9092
-    schema-registry-url: https://psrc-x77pq.us-central1.gcp.confluent.cloud
-    cluster-key: BWPFCCDAZNMD2WIX
-    cluster-secret: cLW395ul5ci7bXUkJXjnW8cwMpJICLtlMC+eAflxPgwcel04YEVYUakfg81i5wgQ
-    schema-registry-key: 5FJI3WEEOPWJKBLC
-    schema-registry-secret: NTbRdm+EFi6WvuvBPA16PJ4pE+yPeR2F2MuyimojgOem+pJABgsymbknFjjwUhR0
+    bootstrap-servers: pkc-921jm.us-east-2.aws.confluent.cloud:9092
+    schema-registry-url: https://psrc-yg906.us-east-2.aws.confluent.cloud
+    cluster-key: GNGU35O4GOIQBLD4
+    cluster-secret: 6cO5v5WovJtOrMb7DjRKFUkIGq4RgrPaiGxF7zr3sk7v0FuQQ6PenXDfS9NvIQ/k
+    schema-registry-key: IG42QUBJB2P6IWHL
+    schema-registry-secret: YzhpxLWAH57P3QhDbEyYZ/B5WeTWPW0siPH4FcqR8yjWJmcUfHJlJUsEaViECsIZ
 
 server:
-    port: 9001
+    port: 9002
 
 kafkademo:
-    outboundTopic: "demo_topic2"
+    outboundTopic: "demo_topic"

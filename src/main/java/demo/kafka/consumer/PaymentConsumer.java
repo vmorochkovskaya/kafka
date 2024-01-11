@@ -16,10 +16,10 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 @Component
 public class PaymentConsumer {
-    final AtomicInteger counter = new AtomicInteger();
-    final PaymentService demoService;
+    private final AtomicInteger counter = new AtomicInteger();
+    private final PaymentService demoService;
 
-    @KafkaListener(topics = "demo_topic2", groupId = "demo-consumer-group", containerFactory = "kafkaListenerContainerFactory")
+    @KafkaListener(topics = "${kafkademo.outboundTopic}", groupId = "demo-consumer-group", containerFactory = "kafkaListenerContainerFactory")
     public void listen(@Header(KafkaHeaders.RECEIVED_KEY) String key, @Payload final PaymentSent command) {
         counter.getAndIncrement();
         log.info("Received message [" + counter.get() + "] key: " + key + ", message: " + command);
