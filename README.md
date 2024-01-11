@@ -15,12 +15,11 @@ Before running the code, make sure you have the following software installed:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone git@git.epam.com:vasilisa_marachkouskaya/java-advanced-backend.git -b <branch>
+   git clone https://github.com/vmorochkovskaya/kafka.git -b <branch>
 
 2. ```bash
    mvn clean install
    ```
-   Repeat this step in case you are receiving "demo.kafka.event.PaymentSent not found ..."
 
 3. Run Spring boot application
 4. In Postman send POST request to http://localhost:9002/v1/payments/send.
